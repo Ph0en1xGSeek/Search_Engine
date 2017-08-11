@@ -1,0 +1,139 @@
+/* YOUR CUSTOM STYLES */
+
+.body{
+    overflow: hidden;
+}
+
+.center{
+    position: absolute;
+    width:50%;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.center-up{
+    position: absolute;
+    width: 20vh;
+    height: 20%;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.center-down{
+    position: absolute;
+    width: 50%;
+
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.btn-group{
+    width: 30%;
+}
+
+img{
+    max-width: 100%;
+}
+
+.container{
+
+    width: 980px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.inner-container{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    padding-bottom: 5%;
+}
+
+.card-block p{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+#tnb-not-found {
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+}
+
+.modal-content{
+    position: absolute;
+    min-width: 400px;
+    max-width:1000px;
+    left:50%;
+    transform: translateX(-50%);
+}
+
+#search-result{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.searchlist{
+    width:100%;
+}
+
+.searchform{
+    width: 100%;
+    max-width: 500px;
+    padding: 0px;
+}
+
+#search-input.dropdown-toggle{
+    padding: 2px;
+    color: black;
+    background-color: #EEEEEE;
+}
+
+.navlogo{
+    width: 4vh;
+    height: 4%;
+    margin-right: 5px;
+    /*top: 30%;*/
+    /*left: 50%;*/
+    /*transform: translateX(-50%) translateY(-50%);*/
+}
+
+.to-top{
+    width:5%;
+    height:5%;
+    position:fixed;
+    left:90%;
+    top:80%;
+    padding: 1%;
+    /*border: solid #ffffff 2px;*/
+    background-color: #eeeeee;
+    /*line-height:30px;*/
+    text-align:center;
+    /*vertical-align:top;*/
+    /*cursor:pointer;*/
+    color: #000;
+    display:none;
+
+    transition: color 0.5s linear, border 0.1s linear;
+}
+.to-top:hover{
+    background-color: #eeeeee;
+    color:#000;
+    /*border: solid #cccccc 2px;*/
+}
+
+a.nav-link:hover{
+    background-color: #55d6ab;
+}
+
+#search-btn{
+    background-color:  #4bd6d0;
+}
+
+#search-btn:hover{
+    background-color: #43d68e;
+}

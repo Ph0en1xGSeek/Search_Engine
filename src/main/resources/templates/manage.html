@@ -1,0 +1,137 @@
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>TNB Search</title>
+    <link href="/css/style.css" rel="stylesheet">
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/mdb.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+</head>
+<body style="background-color: #EEEEEE">
+<header>
+    <!--Navbar-->
+    <nav class="navbar navbar-toggleable-md navbar-dark bg-primary">
+
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav1" aria-controls="navbarNav1" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="/">
+                <strong>搜索引擎管理</strong>
+            </a>
+
+
+    </nav>
+</header>
+
+<main>
+    <div class="container">
+        <h1>索引建立</h1><br>
+        <div class="inner-container card card-block">
+            <h2>指定字段</h2><br>
+            <div class="md-form">
+                <input type="text" id="database" class="form-control">
+                <label for="database">数据库连接</label>
+            </div>
+
+            <div class="md-form">
+                <input type="text" id="table" class="form-control">
+                <label for="table">表名</label>
+            </div>
+
+            <div class="md-form">
+                <input type="text" id="user" class="form-control">
+                <label for="table">用户名</label>
+            </div>
+
+            <div class="md-form">
+                <input type="password" id="password" class="form-control">
+                <label for="table">密码</label>
+            </div>
+
+            <div class="md-form">
+                <input type="text" id="field" class="form-control">
+                <label for="field">字段名（用 ; 隔开）</label>
+            </div>
+
+            <div class="text-center">
+                <button class="btn btn-indigo" id="build-btn">建立</button>
+            </div>
+
+        </div>
+        <div class="inner-container card card-block">
+
+            <h2>建立文档索引</h2><br>
+            <form id="file-form" method="POST" enctype="multipart/form-data" action="/upload-file">
+                <div class="md-form">
+                    <input type="file" id="index-file" name="file" class="form-control">
+                </div>
+
+                <div class="text-center">
+                    <button class="btn btn-indigo" id="file-btn">上传并建立</button>
+                </div>
+            </form>
+
+
+            <h2>使用xml配置文件</h2><br>
+            <form id="import-form" method="POST" enctype="multipart/form-data" action="/upload-config">
+                <div class="md-form">
+                    <input type="file" id="file" name="test" class="form-control">
+                </div>
+
+                <div class="text-center">
+                    <button type="submit" class="btn btn-indigo" id="import-btn">导入</button>
+                </div>
+            </form>
+
+        </div>
+        <div class="inner-container card card-block">
+
+            <h2>目录建立索引</h2><br>
+            <div class="md-form">
+                <input type="text" id="direction" name="direction" class="form-control" placeholder="输入要建立索引的路径">
+                <input type="text" id="doctype" name="doctype" class="form-control" placeholder="输入要建立的文件类型">
+            </div>
+
+            <div class="text-center">
+                <button type="submit" class="btn btn-indigo" id="import-dir-btn">建立</button>
+            </div>
+
+            <h2>目录建立更新</h2><br>
+            <div class="md-form">
+                <input type="text" id="update-direction" name="direction" class="form-control" placeholder="输入要更新索引的路径">
+                <input type="text" id="update-doctype" name="doctype" class="form-control" placeholder="输入要更新的文件类型">
+            </div>
+
+            <div class="text-center">
+                <button type="submit" class="btn btn-indigo" id="update-dir-btn">更新</button>
+            </div>
+
+        </div>
+
+        <!--<br><h1>排序设置</h1><br>-->
+        <!--<div class="inner-container card card-block">-->
+            <!--<div class="md-form">-->
+            <!--<input type="text" id="content-weight" class="form-control">-->
+            <!--<label for="content-weight">标题</label>-->
+            <!--</div>-->
+
+            <!--<div class="md-form">-->
+                <!--<input type="text" id="time-weight" class="form-control">-->
+                <!--<label for="time-weight">正文</label>-->
+            <!--</div>-->
+
+            <!--<div class="text-center">-->
+                <!--<button class="btn btn-indigo" id="setting-btn">设置</button>-->
+            <!--</div>-->
+        <!--</div>-->
+
+    </div>
+</main>
+
+<script type="text/javascript" src="/js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="/js/tether.js"></script>
+<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/js/mdb.min.js"></script>
+<script type="text/javascript" src="/js/manage.js"></script>
+</body>
+</html>

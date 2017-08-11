@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<dataSources>
+<database password="CVDEV2" url="jdbc:oracle:thin:@60.30.69.61:1521:adc" user="CVDEV2">
+<table tableName="T_AUTOMAKER_INFO">
+<column indexed="true" name="AUTOMAKER_ID" solrAlias="AUTOMAKER_ID"/>
+<column indexed="true" name="AUTOMAKER_NAME" solrAlias="AUTOMAKER_NAME"/>
+<column indexed="true" name="CREATE_TIME" solrAlias="CREATE_TIME"/>
+</table>
+</database>
+<database password="CVDEV2" url="jdbc:oracle:thin:@60.30.69.61:1521:adc" user="CVDEV2">
+<table tableName="T_AUTOMAKER_INFO">
+<column indexed="true" name="AUTOMAKER_ID" solrAlias="AUTOMAKER_ID"/>
+<column indexed="true" name="AUTOMAKER_NAME" solrAlias="AUTOMAKER_NAME"/>
+<column indexed="true" name="CREATE_TIME" solrAlias="CREATE_TIME"/>
+</table>
+</database>
+<database password="CVDEV2" url="jdbc:oracle:thin:@60.30.69.61:1521:adc" user="CVDEV2">
+<table tableName="T_AUTOMAKER_INFO">
+<column indexed="true" name="AUTOMAKER_ID" solrAlias="AUTOMAKER_ID"/>
+<column indexed="true" name="AUTOMAKER_NAME" solrAlias="AUTOMAKER_NAME"/>
+<column indexed="true" name="CREATE_TIME" solrAlias="CREATE_TIME"/>
+</table>
+</database>
+<database password="CVDEV2" url="jdbc:oracle:thin:@60.30.69.61:1521:adc" user="CVDEV2">
+<table tableName="T_AUTOMAKER_INFO">
+<column indexed="true" name="AUTOMAKER_ID" solrAlias="AUTOMAKER_ID"/>
+<column indexed="true" name="AUTOMAKER_NAME" solrAlias="AUTOMAKER_NAME"/>
+</table>
+</database>
+<file url="D:\NEXT\searchengine\fileSave\pom.xml"/>
+<database password="CVDEV2" url="jdbc:oracle:thin:@60.30.69.61:1521:adc" user="CVDEV2">
+<table tableName="T_AUTOMAKER_INFO">
+<column indexed="true" name="AUTO_MAKER_ID" solrAlias="AUTO_MAKER_ID"/>
+<column indexed="true" name="AUTO_MAKER_NAME" solrAlias="AUTO_MAKER_NAME"/>
+</table>
+</database>
+<database password="CVDEV2" url="jdbc:oracle:thin:@60.30.69.61:1521:adc" user="CVDEV2">
+<table tableName="T_AUTOMAKER_INFO">
+<column indexed="true" name="AUTOMAKER_ID" solrAlias="AUTOMAKER_ID"/>
+<column indexed="true" name="AUTOMAKER_NAME" solrAlias="AUTOMAKER_NAME"/>
+</table>
+</database>
+<database password="CVDEV2" url="jdbc:oracle:thin:@60.30.69.61:1521:adc" user="CVDEV2">
+<table tableName="T_AUTOMAKER_INFO">
+<column indexed="true" name="AUTOMAKER_ID" solrAlias="AUTOMAKER_ID"/>
+<column indexed="true" name="AUTOMAKER_NAME" solrAlias="AUTOMAKER_NAME"/>
+</table>
+</database>
+<database password="CVDEV2" url="jdbc:oracle:thin:@60.30.69.61:1521:adc" user="CVDEV2">
+<table tableName="T_AUTOMAKER_INFO">
+<column indexed="true" name="AUTOMAKER_ID" solrAlias="AUTOMAKER_ID"/>
+<column indexed="true" name="AUTOMAKER_NAME" solrAlias="AUTOMAKER_NAME"/>
+</table>
+</database>
+<database password="CVDEV2" url="jdbc:oracle:thin:@60.30.69.61:1521:adc" user="CVDEV2">
+<table tableName="T_AUTOMAKER_INFO">
+<column indexed="true" name="AUTOMAKER_ID" solrAlias="AUTOMAKER_ID"/>
+<column indexed="true" name="AUTOMAKER_NAME" solrAlias="AUTOMAKER_NAME"/>
+</table>
+</database>
+<database password="CVDEV2" url="jdbc:oracle:thin:@60.30.69.61:1521:adc" user="CVDEV2">
+<table tableName="T_AUTOMAKER_INFO">
+<column indexed="true" name="AUTOMAKER_ID" solrAlias="AUTOMAKER_ID"/>
+<column indexed="true" name="AUTOMAKER_NAME" solrAlias="AUTOMAKER_NAME"/>
+</table>
+</database>
+<database password="CVDEV2" url="jdbc:oracle:thin:@60.30.69.61:1521:adc" user="CVDEV2">
+<table tableName="T_AUTOMAKER_INFO">
+<column indexed="true" name="AUTOMAKER_ID" solrAlias="AUTOMAKER_ID"/>
+<column indexed="true" name="AUTOMAKER_NAME" solrAlias="AUTOMAKER_NAME"/>
+</table>
+</database>
+<database password="CVDEV2" url="jdbc:oracle:thin:@60.30.69.61:1521:adc" user="CVDEV2">
+<table tableName="T_AUTOMAKER_INFO">
+<column indexed="true" name="AUTOMAKER_ID" solrAlias="AUTOMAKER_ID"/>
+<column indexed="true" name="AUTOMAKER_NAME" solrAlias="AUTOMAKER_NAME"/>
+</table>
+</database>
+<database password="CVDEV2" url="jdbc:oracle:thin:@60.30.69.61:1521:adc" user="CVDEV2">
+<table tableName="T_AUTOMAKER_INFO">
+<column indexed="true" name="AUTOMAKER_ID" solrAlias="AUTOMAKER_ID"/>
+<column indexed="true" name="AUTOMAKER_NAME" solrAlias="AUTOMAKER_NAME"/>
+</table>
+</database>
+<database password="CVDEV2" url="jdbc:oracle:thin:@60.30.69.61:1521:adc" user="CVDEV2">
+<table tableName="T_AUTOMAKER_INFO">
+<column indexed="true" name="AUTOMAKER_ID" solrAlias="AUTOMAKER_ID"/>
+<column indexed="true" name="AUTOMAKER_NAME" solrAlias="AUTOMAKER_NAME"/>
+</table>
+</database>
+</dataSources>
